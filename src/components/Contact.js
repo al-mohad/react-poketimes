@@ -1,3 +1,5 @@
+import Rainbow from "../hoc/Rainbow";
+
 const Contact = () => {
     return(
         <div className='container'>
@@ -6,4 +8,4 @@ const Contact = () => {
         </div>
     );
 }
-export default Contact
+export default Rainbow(Contact)
